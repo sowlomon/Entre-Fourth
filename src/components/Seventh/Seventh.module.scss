@@ -1,0 +1,44 @@
+.mainSec{
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2B2B39;
+  padding: 0px 105px;
+  
+}
+
+.mainSec > div {
+  padding-top: 100px;
+}
+
+.mainSec > div > h3{
+  color:#FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+}
+.mainSec > div > p{
+  color: #E7E7E7;
+  letter-spacing: 0.0125em;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.mainSec > div > input{
+  color:#717179;
+  text-align: center;
+  background-color:#2B2B39;
+  width: 339px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+.mainSec > div > span button {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: translate(-35%,0%);
+  height: 48px;
+  width: 120px;
+  border-radius: 12px;
+}
