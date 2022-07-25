@@ -1,0 +1,45 @@
+
+.mainSec{
+  display: flex;
+  align-items: center;
+  gap: 339px;
+  padding: 100px 135px 0px 135px;
+  margin-top: 132px;
+  // background-size: cover;
+  background: #E5F0FD;
+}
+
+.div1 > span{
+  color:#217BF4;
+  margin-bottom: 0px;
+}
+
+.div1{
+  margin-bottom: 122px;
+}
+
+.div1 > h3{
+  font-size: 36px;
+  color: #0A093D;
+  width: 351px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.div1 > div:nth-child(3) {
+  color: #656464;
+  font-size: 16px;
+  margin-bottom: 36px;
+  width: 351px;
+}
+
+.div1 > div:nth-child(4) {
+ display: flex;
+ align-items: center;
+}
+
+
+
+
+

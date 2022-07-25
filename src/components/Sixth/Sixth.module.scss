@@ -1,0 +1,52 @@
+.mainSec{
+  padding: 0px 105px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.div1{
+  text-align: center;
+}
+
+.div1 > span{
+  color:#217BF4;
+}
+
+.div1 > h3{
+  font-size: 36px;
+  color: #0A093D;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 74px;
+}
+
+.div2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.div2 > div span:nth-child(2){
+  color: #2F2C4A;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.div2 > div > div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.div2 > div h5{
+  color: #656464;
+  font-size: 16px;
+  margin-top: 24px;
+  font-weight: 400;
+}
+
+.div2 > div:nth-child(2) h5{
+  color: #217BF4;
+  
+}
+
