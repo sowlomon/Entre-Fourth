@@ -1,15 +1,17 @@
 .mainSec{
-  height: 50vh;
   display: flex;
   justify-content: space-between;
-  background-color: #2B2B39;
-  padding: 0px 105px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 78px;
+  padding-bottom: 85px;
   
 }
 
-.mainSec > div {
-  padding-top: 100px;
+.mainSec1{
+  background-color: #2B2B39;
 }
+
 
 .mainSec > div > h3{
   color:#FFFFFF;
@@ -26,8 +28,10 @@
 
 .mainSec > div > input{
   color:#717179;
-  text-align: center;
+  // text-align: center;
+  padding-left: 18px;
   background-color:#2B2B39;
+  margin-top: 18px;
   width: 339px;
   height: 45px;
   border: 1px solid rgba(255, 255, 255, 0.85);
@@ -37,7 +41,7 @@
   position: relative;
   left: 0;
   top: 0;
-  transform: translate(-35%,0%);
+  transform: translate(-100%,0%);
   height: 48px;
   width: 120px;
   border-radius: 12px;

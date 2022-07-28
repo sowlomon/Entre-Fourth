@@ -9,52 +9,55 @@ import styles from './Footer.module.scss';
 
 function Footer() {
   return (
-    <div className={styles.mainSec}>
-      <p>Besnik Creative Agency</p>
-      <div className={styles.footerDiv}>
-        <Image 
-          src={Logo}
-          alt="image"
-          height="34px"
-          width="34px"
-        />
-        <span>Netbook</span>
-      </div>
-      <div className={styles.iconDiv}>
-        <div>
+    <div className={styles.mainSec1}>
+      <div className={styles.mainSec}>
+        <p>Besnik Creative Agency</p>
+        <div className={styles.footerDiv}>
           <Image 
-            src={twitter}
+            src={Logo}
             alt="image"
-            height="12px"
-            width="16px"
+            height="34px"
+            width="34px"
           />
+          <span>Netbook</span>
         </div>
-        <div>
-          <Image 
-            src={insta}
-            alt="image"
-            height="12px"
-            width="16px"
-          />
-        </div>
-        <div>
-          <Image 
-            src={face}
-            alt="image"
-            height="12px"
-            width="16px"
-          />
-        </div>
-        <div>
-          <Image 
-            src={link}
-            alt="image"
-            height="12px"
-            width="16px"
-          />
+        <div className={styles.iconDiv}>
+          <div>
+            <Image 
+              src={twitter}
+              alt="image"
+              height="12px"
+              width="16px"
+            />
+          </div>
+          <div>
+            <Image 
+              src={insta}
+              alt="image"
+              height="12px"
+              width="16px"
+            />
+          </div>
+          <div>
+            <Image 
+              src={face}
+              alt="image"
+              height="12px"
+              width="16px"
+            />
+          </div>
+          <div>
+            <Image 
+              src={link}
+              alt="image"
+              height="12px"
+              width="16px"
+            />
+          </div>
         </div>
       </div>
     </div>
+   
   )
 }
 

@@ -1,8 +1,12 @@
 .mainSec{
   display: flex;
   align-items: center;
-  padding: 0px 105px;
+  max-width: 1140px;
+  margin: 0 auto;
   justify-content: space-between;
+}
+
+.mainSec1{
   background: #20202D;
 }
 

@@ -10,6 +10,7 @@ import people from '../../../public/images/people.png';
 import liImg from '../../../public/images/Ellipse 11.png';
 import arrow from '../../../public/images/ArrowRight.png';
 import arrow1 from '../../../public/images/ArrowRight (5).png';
+import arrow2 from '../../../public/images/ArrowRight (1).png';
 import star from '../../../public/images/Vector (10).png';
 
 function Second () {
@@ -55,8 +56,8 @@ function Second () {
           <Image 
             src={fImage}
             alt="image"
-            height="400px"
-            width="300px"
+            height="422px"
+            width="281px"
           />
           <div>
             <div style={{marginBottom:"20px"}}>
@@ -94,7 +95,7 @@ function Second () {
               height="40px"
               width="60px"
             />
-            <span style={{color:"#217BF4", marginLeft:"12px"}}>+838k</span><span className={styles.span2}>Members</span>
+            <span style={{color:"#217BF4", marginLeft:"12px", fontSize: "16px"}}>+838k</span><span className={styles.span2}>Members</span>
           </div>
           <div className={styles.divText}>
             More than 2 billion people
@@ -165,6 +166,14 @@ function Second () {
           </div>
           <button>
             <span>Discover Me</span>
+            <span>
+              <Image 
+                src={arrow2}
+                alt="image"
+                height="10px"
+                width="10px"
+              />
+            </span>
           </button>
         </div>
 

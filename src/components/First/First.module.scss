@@ -1,9 +1,10 @@
 
 .mainSec{
-  height: 100vh;
+  // height: 100vh;
   padding-top: 20px;
   background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
   background-size: cover;
+
   hr {
     border: 1px solid #ecf9f9 ;
   }
@@ -13,8 +14,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 105px;
+  max-width: 1140px;
+  margin: 0 auto;
+  // padding: 0px 135px;
   // border-bottom: 1px solid #217BF4;
+}
+
+.subMainDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
 }
 
 .mainDiv > div:nth-child(2){
@@ -27,16 +37,15 @@
 
 }
 
-.mainDiv > div > ul{
+.mainDiv > div> div > ul{
   display: flex;
   align-items: center;
   list-style: none;
   color:#656464;
   gap: 50px; 
-  
 }
 
-.mainDiv > div > ul :first-child{
+.mainDiv > div > div > ul :first-child{
   font-weight: 700;
 }
 
@@ -47,13 +56,13 @@
   gap: 5px;
 }
 
-.mainDiv > div:nth-child(3){
+.mainDiv > div:nth-child(2){
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.mainDiv > div:nth-child(3) button{
+.mainDiv > div:nth-child(2) button{
   height: 58px;
   width: 123px;
   color: #FFFFFF;
@@ -64,7 +73,7 @@
   border: none;
 }
 
-.mainDiv > div:nth-child(3) input{
+.mainDiv > div:nth-child(2) input{
   border:none;
   width: 80px;
   height: 14px;
@@ -79,8 +88,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10vh;
-  padding: 0px 105px;
+  max-width: 1140px;
+  margin: 0 auto;
+  // padding: 0px 135px;
 
 }
 
@@ -96,6 +106,15 @@
   padding: 10px 0px;
 
 }
+.secDiv > div:nth-child(1){
+  margin-top: 125px;
+  margin-bottom: 165px;
+}
+
+.secDiv:nth-child(2){
+  margin-top: 72px;
+  margin-bottom: 85px;
+}
 
 .secDiv > div:nth-child(1) p:nth-child(3){
   color : #656464; 
@@ -106,7 +125,7 @@
 .secDiv > div:nth-child(1) > div {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 18px;
 }
 
 .b1{

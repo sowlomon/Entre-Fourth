@@ -14,34 +14,36 @@ function First() {
     <>
       <div className={styles.mainSec}>
         <div className={styles.mainDiv}>
-          <div className={styles.Fdiv}>
-            <Image 
-              src={Logo}
-              alt="image"
-              height="34px"
-              width="34px"
-            />
-            <span><h2>Netbook</h2></span>
-          </div>
-          <div>
-            <ul>
-              <li>Home</li>
-              <li>
-                Community
-                &nbsp;
-                <span>
-                  <Image 
-                    src={drop}
-                    alt="image"
-                    height="7px"
-                    width="7px"
-                  />
-                </span>
-              </li>
-              
-              <li>Blog</li>
-              <li>Events</li>
-            </ul>
+          <div className={styles.subMainDiv}>
+            <div className={styles.Fdiv}>
+              <Image 
+                src={Logo}
+                alt="image"
+                height="34px"
+                width="34px"
+              />
+              <span><h2>Netbook</h2></span>
+            </div>
+            <div>
+              <ul>
+                <li>Home</li>
+                <li>
+                  Community
+                  &nbsp;
+                  <span>
+                    <Image 
+                      src={drop}
+                      alt="image"
+                      height="7px"
+                      width="7px"
+                    />
+                  </span>
+                </li>
+                
+                <li>Blog</li>
+                <li>Events</li>
+              </ul>
+            </div>
           </div>
           <div>
             <FontAwesomeIcon

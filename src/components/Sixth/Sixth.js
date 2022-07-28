@@ -31,7 +31,7 @@ function Sixth() {
                 src={line}
                 alt="img"
                 width="39px"
-                height="5px" 
+                height="3px" 
               />
             </span>
             <span>
@@ -63,7 +63,7 @@ function Sixth() {
                 src={line}
                 alt="img"
                 width="39px"
-                height="5px"  
+                height="3px"  
               />
             </span>
             <span>
@@ -95,7 +95,7 @@ function Sixth() {
                 src={line}
                 alt="img"
                 width="39px"
-                height="5px"  
+                height="3px"  
               />
             </span>
             <span>

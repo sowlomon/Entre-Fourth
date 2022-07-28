@@ -1,6 +1,8 @@
 
 .mainSec{
-  height: 100vh;
+  // height: 100vh;
+  max-width: 1140px;
+  margin: 0 auto;
 
 }
 .div1{
@@ -13,11 +15,15 @@
 
 .div1 > h3{
   font-size: 36px;
+  margin: 0px;
+  margin-top: 10px;
   color: #0A093D;
 }
 
 .div1 > p {
   color: #656464;
+  margin-top: 18px;
+  margin-bottom: 38px;
   font-size: 16px;
 }
 
@@ -25,10 +31,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-  top: 0;
-  left: 0;
-  transform: translate(125%,50%);
+  // position: relative;
+  // top: 0;
+  // left: 0;
+  margin-bottom: 44px;
+  margin: 0 auto;
+  // transform: translate(125%,50%);
   padding-left: 20px;
   padding-right: 20px;
   width: 424px;
@@ -50,8 +58,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 80px;
+  gap: 30px;
   margin-top: 100px;
+
 }
 
 .div2 > div{
@@ -59,20 +68,22 @@
   background: #FFFFFF;
   box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
   border-radius: 14px;
-  // width: 200px;
-  // height: 280px;
+  width: 270px;
   padding: 35px;
 
 }
 .div2 > div h3{
   font-weight: 600;
   font-size: 24px;
+  margin: 0px;
+  margin-top: 24px;
   text-align: center;
   color: #2F2C4A;
 }
 .div2 > div p{
   font-weight: 400;
   font-size: 16px;
+  margin-top: 14px;
   text-align: center;
   color: #656464;
 }
